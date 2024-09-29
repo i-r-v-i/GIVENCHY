@@ -1,20 +1,19 @@
 @font-face {
-	font-weight: 500;
-	font-family: 'Montserrat';
-	src: url('./fonts/Montserrat-Medium.woff2') format('woff2');
-	src: url('./fonts/Montserrat-Medium.woff') format('woff');
-}
+    font-family: 'Prompt';
+    src: local('Prompt Regular'), local('Prompt-Regular'),
+        url('./fonts/Prompt-Regular.woff2') format('woff2'),
+        url('./fonts/Prompt-Regular.woff') format('woff'),
+        url('./fonts/Prompt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
 
 @font-face {
-	font-weight: 600;
-	font-family: 'Montserrat';
-	src: url('./fonts/Montserrat-SemiBold.woff2') format('woff2');
-	src: url('./fonts/Montserrat-SemiBold.woff') format('woff');
-}
-
-@font-face {
-	font-weight: 700;
-	font-family: 'Montserrat';
-	src: url('./fonts/Montserrat-Bold.woff2') format('woff2');
-	src: url('./fonts/Montserrat-Bold.woff') format('woff');
-}
+    font-family: 'Prompt';
+    src: local('Prompt Medium'), local('Prompt-Medium'),
+        url('./fonts/Prompt-Medium.woff2') format('woff2'),
+        url('./fonts/Prompt-Medium.woff') format('woff'),
+        url('./fonts/Prompt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }

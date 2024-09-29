@@ -1,0 +1,149 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts.css);
+body {
+    background-color:  #E7E7E2;
+}
+.page {
+    max-width: 1440px;
+    background-color:  #E7E7E2;
+    margin: 0 auto;
+    font-family: 'Prompt';
+    font-style: normal;
+   
+}
+
+.container {
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+  
+}
+
+.header {
+  
+    flex-shrink: 0;
+    display: flex;
+    
+}
+
+.header__image {
+max-width: 700px;
+width: 100%;
+max-height: 934px;
+padding: 0 0 -34px 4px;
+
+}
+
+.header__heading {
+    margin: auto 0;
+    
+   
+}
+.header__burger {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    display: flex;
+    
+}
+
+.button {
+   
+}
+
+.burger-button {
+    padding: 0;
+	background-color: transparent;
+	border: 0;
+	border-radius: 0;
+	cursor: pointer;
+    
+    width: 40px;
+    height: 33px;
+   
+}
+
+
+.burger-button__line-element {
+    content: '';
+    background-color:#0A0A0A;
+    position: absolute;
+    height: 3px;
+    width: 40px;
+    left: 0;
+    border-radius: 50px;
+	transition: all 400ms cubic-bezier(0.23, 1, 0.32, 1);
+} 
+
+.burger-button__line-element:nth-child(1) {
+    top: 0;
+}
+
+.burger-button__line-element:nth-child(2) {
+    top: 15px;
+}
+
+.burger-button__line-element:nth-child(3) {
+    bottom: 0px;
+}
+
+.header__burger-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #0A0A0A;
+    margin: auto 20px;
+}
+
+
+.heager__title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0A0A0A;
+    
+}
+
+
+.heager__title-string {
+margin: 0;
+padding: 0;
+}
+
+.button-subscribe {
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 32px 0 0;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+gap: 10px;
+width: 350px;
+height: 48px;
+background: #0A0A0A;
+border: 0.5px solid #0A0A0A;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.main {
+    flex-shrink: 0; 
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}
